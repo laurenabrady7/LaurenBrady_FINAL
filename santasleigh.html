@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#slide").animate({
+            left: "+=2000"
+        }, 2000);
+    });
+});   
+</script>
+</head>
+<body>
+    
+<h1>Santa's Christmas Adventure</h1>
+
+<p>Santa's sleigh ran out of magic fuel! The reindeers need more energy in order to pull the sleigh... </p>
+
+<button>Feed the reindeers a treat</button><br><br>
+
+<img id="slide" src="sleigh.png" height="200px" style="position:absolute; top:150px">
+
+</body>
+    
+<footer>   
+<a href="santaappears.html" style="position:absolute; top:400px">Click here for your next challenge!</a> 
+</footer>
+    
+</html>

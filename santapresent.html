@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#slide").animate({
+        width: "125px",
+        height: "125px"},
+        'slow'
+        );
+    }); 
+}); 
+    
+</script>
+</head>
+<body>
+    
+<h1>Santa's Christmas Adventure</h1>
+
+<p>Santa has to shrink all of the children's toys in order to fit them into his bag. Make a Christmas wish to bring the present back to it's notmal size!</p>
+
+<button>Make a Christmas wish!</button><br><br>
+
+<img src="santaandgift.gif">
+<img id="slide" src="gift.png" height="25px">   
+</body>
+    
+<footer>  
+<a href="finish.html" style="position:absolute; top:400px">Click here next!</a>   
+</footer>
+    
+</html>
+

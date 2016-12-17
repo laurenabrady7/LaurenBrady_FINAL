@@ -1,0 +1,17 @@
+html {
+    font-family: 'Adobe Garamond Pro', serif;
+}
+
+h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+body {
+    max-width: 1150px;
+    margin: auto;
+}
+
+footer {
+    padding: 20px;
+    margin-bottom: 50px;
+}
